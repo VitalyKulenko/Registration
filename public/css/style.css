@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #dadada;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1080px]
+    }
+}
+
+.error-msg {
+    display: none;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"],
+select[aria-invalid="true"] {
+    border: 2px solid #CC0000;
+}
+
+input[type="file"][aria-invalid="true"]{
+    border: none;
+    color: #CC0000;
+}
