@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./app/views/*.php", "./app/views/partials/*.php"],
+  content: ["./app/views/*.php", "./app/views/partials/*.php", "./app/controllers/*.php"],
   theme: {
     screens: {
       'lg' : {'max': '992px'},
@@ -13,9 +13,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        white: '#ffffff',
-        red: '#dd3e3e',
-        darkRed: '#b01717'
       }
     }
   },

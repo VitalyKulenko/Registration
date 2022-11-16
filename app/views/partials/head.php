@@ -10,7 +10,9 @@
     <script src="node_modules/htmx.org/dist/htmx.js"></script>
     <script defer src="node_modules/@alpinejs/mask/dist/cdn.min.js"></script>
     <script defer src="node_modules/@colinaut/alpinejs-plugin-simple-validate/dist/alpine.validate.min.js"></script>
+    <script defer src="node_modules/@alpinejs/persist/dist/cdn.min.js"></script>
     <script defer src="node_modules/alpinejs/dist/cdn.min.js"></script>
+    <script src="cockies.js"></script>
 </head>
 <body>
     <?php require('nav.php'); ?>

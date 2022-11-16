@@ -7,7 +7,7 @@ use App\Core\App;
 class PagesController
 {
     /**
-     * Show the home page.
+     * Download page.
      */
     public function home()
     {

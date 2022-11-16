@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "php -S localhost:8888 & npx tailwindcss -i ./public/css/style.css -o ./dist/output.css --watch"
+    "start": "sudo /etc/init.d/mysql start & php -S localhost:8888 & npx tailwindcss -i ./public/css/style.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "Vitaly Kulenko",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@alpinejs/mask": "^3.10.5",
+    "@alpinejs/persist": "^3.10.5",
     "@colinaut/alpinejs-plugin-simple-validate": "^1.7.13",
     "alpinejs": "^3.10.5",
     "htmx.org": "^1.8.2"
